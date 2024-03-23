@@ -1,14 +1,14 @@
-def str_upper(value):
+def str_upper(string):
     """
     Функция делает заглавными все буквы каждого слова в строке,
     поступившей на вход
     """
-    return value.upper()
+    return string.upper()
 
 
-def str_title(value):
+def str_title(string):
     """
     Функция делает заглавными первые буквы каждого слова в строке,
     поступившей на вход
     """
-    return value.title()
+    return string.title()
